@@ -1,0 +1,5 @@
+title Adding new note in spa version
+
+#after the https://fullstack-exampleapp.herokuapp.com/spa is loaded and new note is added
+browser -> server : HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server -> browser : HTTP status code 201(created)
