@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 let next = 0;
 
+
+
 const MostVote = ({voteCount,anecdotes}) => {
   let maxVote = voteCount.reduce((a,b)=>Math.max(a,b));
   let maxVotedAnecdoteIndex = voteCount.indexOf(maxVote);
